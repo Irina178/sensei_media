@@ -334,8 +334,41 @@ body {
    font-family: "Montserrat", sans-serif;
 }
 .container {
-   max-width: 1110px;
+   max-width: 1400px;
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
+   /* border: 1px solid red; */
+}
+.menu {
+   display: flex;
+   align-items: center;
+   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.08);
+}
+.logo {
+   margin: 8px 108px 7px 103px;
+}
+.nav {
+   display: flex;
+}
+
+.nav__link {
+   font-size: 16px;
+   line-height: 1.5;
+   color: #333333;
+   font-weight: 500;
+}
+.nav__list:not(:first-child) {
+   margin-left: 34px;
+}
+.buttom {
+   font-size: 16px;
+   line-height: 1.6;
+   color: white;
+   font-weight: 600;
+   padding: 14px 33px 14px 42px;
+   background-image: linear-gradient(to right, #f32c6d, #cb1d95);
+   border-radius: 9px;
+   margin-left: 159px;
+   height: 54px;
 }
